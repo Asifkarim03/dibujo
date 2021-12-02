@@ -32,10 +32,8 @@ position: absolute;
 width: 200px;
 height: 200px;
 background-color: #7fd3f7;
-border: thin solid black;
-margin: 0 auto;
-left: 0;
-right: 0;
+border: thin solid #7fd3f7;
+right: 7em;
 border-radius: 50% 50% 50% 50% / 40% 40% 40% 40%
 
 }
@@ -68,8 +66,8 @@ border-radius: 50% 50% 50% 50% / 40% 40% 40% 40%
   position: relative;
   width: 100px;
   height: 3px;
-  background-color: #black;
-  border: thin solid black;
+  background-color: #bcd3e6;
+  border: thin solid #bcd3e6;
   top: 4em;
   left: 50px;
   right: 0em;
@@ -77,60 +75,51 @@ border-radius: 50% 50% 50% 50% / 40% 40% 40% 40%
 }
 
 
-.barriga{
+.cuerpo{
 position: relative;
 width: 160px;
 height: 150px;
 background-color: #dbc795;
-border: thin solid black;
+border: thin solid #dbc795;
 z-index: -4;
-margin: 0 auto;
-left: 0;
-right: 0;
+left: 11.5em;
 bottom: -12em;
-border-radius: 30% 30% 30% 30% / 30% 30% 30% 30%;
+border-radius: 30% 30% 30% 30% / 30% 30% 30% 30%
 }
 
 
 .brazo{
-position: absolute;
+position: relative;
 width: 100px;
 height: 40px;
-margin: 0 auto;
-left: 0;
-right: 0;
-
 background-color: #7fd3f7;
-border: thin solid black;
-
-border-radius: 30% 30% 30% 30% / 30% 30% 30% 30%;
-left: -10em;
+border: thin solid #7fd3f7;
+bottom: -4em;
+left: 6em;
+border-radius: 30% 30% 30% 30% / 30% 30% 30% 30%
 
 }
 
 .brazo2{
-  position: absolute;
+  position: relative;
   width: 100px;
   height: 40px;
   background-color: #7fd3f7;
-  border: thin solid black;
-  margin: 0 auto;
-  left: 0;
-  right: 0;
-
-  border-radius: 30% 30% 30% 30% / 30% 30% 30% 30%;
-  right: -10em;
+  border: thin solid #7fd3f7;
+  bottom: -1.5em;
+  left: 21em;
+  border-radius: 30% 30% 30% 30% / 30% 30% 30% 30%
 
 }
 
 .mano{  position: relative;
   width: 35px;
   height: 35px;
-  background-color: #7fd3f7;
+  background-color: black;
   border: thin solid black;
   border-radius: 50%;
-  top: 0em;
-  left: -2em;
+  top: 4em;
+  left: 9em;
   right: 0em
 }
 
@@ -139,44 +128,18 @@ left: -10em;
   position: relative;
   width: 35px;
   height: 35px;
-  background-color: #7fd3f7;
+  background-color: black;
   border: thin solid black;
   border-radius: 50%;
-  top: -0em;
-  left: 6em;
+  top: -3em;
+  left: 5em;
   right: 0em;
 }
 
-.pierna-derecha{
-  position: absolute;
-  width: 40px;
-  height: 100px;
-  background-color: #7fd3f7;
-  border: thin solid black;
+.pierna{
 
-  border-radius: 30% 30% 30% 30% / 30% 30% 30% 30%;
-
-  margin: 0 auto;
-  left: 0;
-  right: 0;
-
-  right: -7em;
-  bottom: 5em;
 }
 
-.pierna-izquierda{
-  position: absolute;
-  width: 40px;
-  height: 100px;
-  background-color: #7fd3f7;
-  border: thin solid black;
+.pierna2{
 
-  border-radius: 30% 30% 30% 30% / 30% 30% 30% 30%;
-
-  margin: 0 auto;
-  left: 0;
-  right: 0;
-
-  left: -7em;
-  bottom: 5em;
 }
