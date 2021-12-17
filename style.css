@@ -20,7 +20,6 @@
 
   margin: 0 auto;
   /* fin centrar verticalmente la patata */
-  border: thin solid green;
   height: 30em;
   width: 30em;
 
@@ -50,7 +49,7 @@ border-radius: 50% 50% 50% 50% / 40% 40% 40% 40%
   background-color: black;
   border: thin solid black;
   border-radius: 50%;
-  top: 4em;
+  top: 4.2em;
   left: 9em;
   right: 0em;
 }
@@ -242,3 +241,58 @@ left: -10em;
     left: 17.4em;
     right: 0em
 }
+
+.gafas {
+  position: absolute;
+  margin: 0 auto;
+  left: -20px;
+  right: 0;
+  z-index: 10;
+  top: 10px;
+  animation: mover_gafa 10s infinite;
+
+}
+
+.gafas img {
+width: 15em;
+margin: 0 auto;
+left: -20px;
+right: 0;
+}
+@keyframes mover_gafa {
+  0% {top: 0;}
+  50% {top: 1.5em;}
+  100% {top: 3em;}
+}
+
+.alas{
+position: absolute;
+margin: 0 auto;
+left: -5em;
+right: 0;
+top: -5em;
+z-index: -300;
+}
+.alas img {
+width: 20em;
+}
+
+
+.fondoplaya{
+  position: absolute;
+  margin: 0 auto;
+  left: -5em;
+  right: 0;
+  top: -5em;
+  z-index: -300;
+  width: 100%;
+  height: 100%;
+  }
+
+  .cascada{
+    position: absolute;
+    margin: 0 auto;
+    left: 6em;
+    right: 0;
+    top: 8.5em;
+  }
